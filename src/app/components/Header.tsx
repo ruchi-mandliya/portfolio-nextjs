@@ -4,7 +4,7 @@ import { MdOutlineCloudDownload } from "react-icons/md";
 
 const Header = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 z-50 sticky top-0">
       <header className="text-gray-900 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-black-900 mb-4 md:mb-0">
@@ -25,7 +25,7 @@ const Header = () => {
             <Link href={"#"} className="mr-5 hover:text-gray-600">
               Projects
             </Link>
-            <Link href={"#"} className="mr-5 hover:text-gray-600">
+            <Link href={"#Contact"} className="mr-5 hover:text-gray-600">
               Contact
             </Link>
           </nav>
