@@ -1,13 +1,10 @@
-import React from "react";
-import Header from "./components/Header";
+import Image from "next/image";
+import Hero from "./components/Hero";
 
-const HomePage: React.FC = () => {
+export default function Home() {
   return (
     <div>
-      <main>{/* Your main content goes here */}</main>
-      {/* Other components or footer */}
+      <Hero />
     </div>
   );
-};
-
-export default HomePage;
+}
