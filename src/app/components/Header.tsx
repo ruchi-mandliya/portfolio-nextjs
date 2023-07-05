@@ -16,13 +16,13 @@ const Header = () => {
             <Link href={"/"} className="mr-5 hover:text-gray-600">
               Home
             </Link>
-            <Link href={"#"} className="mr-5 hover:text-gray-600">
+            <Link href={"#about "} className="mr-5 hover:text-gray-600">
               About
             </Link>
             <Link href={"#"} className="mr-5 hover:text-gray-600">
               Skills
             </Link>
-            <Link href={"#"} className="mr-5 hover:text-gray-600">
+            <Link href={"#Project"} className="mr-5 hover:text-gray-600">
               Projects
             </Link>
             <Link href={"#Contact"} className="mr-5 hover:text-gray-600">
